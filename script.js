@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'https://mighty-savannah-41767.herokuapp.com/v1/task/getTask?taskId=1/v1/task/';
+  var apiRoot = 'https://mighty-savannah-41767.herokuapp.com/v1/task/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
